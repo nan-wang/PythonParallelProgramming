@@ -31,6 +31,7 @@ def State1(transition_value):
     logging.info(f'resume the transition, calling {result}')
     return output_str + result
 
+
 @asyncio.coroutine
 def State2(transition_value):
     output_str = f'state2 with {transition_value}\n'
@@ -42,6 +43,7 @@ def State2(transition_value):
     logging.info(f'resume the transition, calling {result}')
     return output_str + result
 
+
 @asyncio.coroutine
 def State3(transition_value):
     output_str = f'state3 with {transition_value}\n'
@@ -52,6 +54,7 @@ def State3(transition_value):
     result = f'state3 with transition to {result}'
     logging.info(f'resume the transition, calling {result}')
     return output_str + result
+
 
 @asyncio.coroutine
 def EndState(transition_value):
