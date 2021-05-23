@@ -12,7 +12,7 @@ def count(number):
 
 def evaluate_item(x):
     result_item = count(x)
-    # print(f'item {x}, result {result_item}')
+    print(f'item {x}, result {result_item}')
 
 
 if __name__ == '__main__':
